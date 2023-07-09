@@ -28,8 +28,20 @@
 		},
 		{
 			title: 'Czym różnimy się od gotowych rozwiązań dostępnych na rynku?',
-			desc: [`1. Budżetowe rozwiązanie fizyczne wraz z konsultacjami - przystępne cenowo dla małych firm.`, `2. Uniwersalne rozwiązanie i niezależnie od rodzaju działalności.`, `3. Możliwe jest przejście na droższe i bardziej złożone systemy wykorzystujące Kanban.`, `4. `, `5. `, `6. `]
+			desc: [
+				`1. Budżetowe rozwiązanie fizyczne wraz z konsultacjami - przystępne cenowo dla małych firm.`,
+				`2. Uniwersalne rozwiązanie i niezależnie od rodzaju działalności.`,
+				`3. Możliwe jest przejście na droższe i bardziej złożone systemy wykorzystujące Kanban.`
+			]
+			// `4. `, `5. `, `6. `
 		},
+		{
+			title: 'Jak wykorzystamy wysoką dokładność zapewnianą przez usługi e-Czas?',
+			desc: [
+				`Jeśli w zakładzie produkcyjnym znajduje się kilka sekcji lub urządzeń generujących dane w czasie rzeczywistym, nasz system ma możliwość nałożenia ich na wspólny wykres z dokładnością do milisekundy, bez konieczności gromadzenia dodatkowych danych.`,
+				``
+			]
+		}
 	];
 </script>
 

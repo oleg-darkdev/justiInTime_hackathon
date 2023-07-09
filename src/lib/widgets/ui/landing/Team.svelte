@@ -3,8 +3,8 @@
 		{
 			img: 'https://avatars.githubusercontent.com/u/25108722?v=4',
 			title: 'Oleg Medvedev',
-			desc: ['', ''],
-			linkedin: '',
+			desc: ['Inżynier mechatronik i Certyfikowany specjalista Kanban z ponad 4-letnim doświadczeniem, przeważnie w mikroelektronice.'],
+			linkedin: 'https://www.linkedin.com/in/oleg-darkdev',
 			github: 'https://github.com/oleg-darkdev'
 		},
 		{
@@ -12,14 +12,14 @@
 			title: 'Anton Savichau',
 			desc: ['Principal Software Engineer with over 10 years of extensive experience in web and desktop applications developed on various technologies.',
       'Experienced in Kanban/Scrum methodologies, which has enabled me to streamline the development process and ensure timely delivery of projects.'],
-			linkedin: '',
+			linkedin: 'https://www.linkedin.com/in/anton-savichau/',
 			github: ''
 		}
 	];
 </script>
 
-<section class="mt-6 py-24 px-6 w-full bg-violet-600 ">
-	<div class=" text-center mx-auto  lg:text-left">
+<section class="mt-6 w-full bg-violet-600 py-24 px-6 ">
+	<div class=" mx-auto text-center  lg:text-left">
 		<h2 class="mb-12 text-center text-6xl  font-black text-white">Nasz zespół</h2>
 
 		<div class="grid gap-6 md:grid-cols-2 xl:gap-x-12">
