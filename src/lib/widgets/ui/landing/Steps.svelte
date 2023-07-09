@@ -40,7 +40,7 @@
 </script>
 
 <section class='min-h-screen'>
-	<h2 class=" text-center text-6xl  font-black text-violet-700">
+	<h2 class=" text-center lg:text-6xl text-4xl  font-black text-violet-700">
 		Co się będzie działo <br class="hidden lg:block" /> w systemie produkcyjnym
 	</h2>
 	<div class="relative mx-auto w-full max-w-7xl items-center px-5 py-12 md:px-12 lg:px-24">
