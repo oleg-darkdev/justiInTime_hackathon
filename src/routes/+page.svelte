@@ -5,6 +5,7 @@
 		LeftPanel,
 		ShortDescription,
     FAQ,
+    Browsers,
 		Steps,
 		Features,
 		Team
@@ -104,9 +105,13 @@
 
 <Logos />
 
+<a name="more" ></a>
 <Features />
 
 <Steps />
+
+<Browsers />
+
 
 <h2 class="mt-12 text-center text-6xl  font-black text-violet-700">Загляните под капот</h2>
 

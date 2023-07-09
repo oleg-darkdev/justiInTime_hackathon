@@ -6,8 +6,8 @@ import RightPanel from './ui/landing/RightPanel.svelte';
 import LeftPanel from './ui/landing/LeftPanel.svelte';
 import Logos from './ui/landing/Logos.svelte';
 import FAQ from './ui/landing/FAQ.svelte';
+import Browsers from './ui/landing/Browsers.svelte';
 import ShortDescription from './ui/landing/ShortDescription.svelte';
-
 
 import Documentation from './ui/app/Documentation.svelte';
 
@@ -16,7 +16,8 @@ export {
 	Hero,
 	Documentation,
 	FAQ, ShortDescription,
-	Features,
+  Features,
+  Browsers,
 	LeftPanel,
 	Logos,
 	Steps,
