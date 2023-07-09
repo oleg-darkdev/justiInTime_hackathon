@@ -4,15 +4,15 @@
 			title: 'Just in Time opiera się na sprawdzonym systemie produkcyjnym.',
 			icon: '',
 			desc: [
-    ]
+				'Systemy produkcyjne potrzebne do podejmowania mądrzejszych i pewniejszych decyzji już istnieją. Trzeba tylko zacząć z nich korzystać',
+				'Justi in time to proste i niedrogie rozwiązanie oparte na systemie produkcyjnym Toyoty, które zapewnia zespołowi natychmiastowy dostęp do szczegółowych danych produkcyjnych'
+			]
 		},
 		{
-			title:
-				'Почему отслеживание производства является обязательным условием современного производства',
+			title: 'Dlaczego monitorowanie produkcji jest niezbędne w nowoczesnej produkcji',
 			icon: '',
 			desc: [
-				'Инновации в производственных технологиях находятся на пике, но бывает трудно понять, с чего начать. Вам нужно решение, которое легко внедрить, просто использовать и которое дает преобразующую информацию. Именно таким решением является отслеживание производства в режиме реального времени с помощью MachineMetrics. Основные преимущества включают:',
-				''
+				'"Niedrogie innowacje w zakresie technologii produkcji, które są łatwe do wdrożenia, łatwe w użyciu i dostarczają wystarczającej ilości informacji do konwersji. Śledzenie produkcji w czasie rzeczywistym Just In Time jest właśnie takim rozwiązaniem"'
 			]
 		},
 		{
@@ -51,14 +51,15 @@
 						dla swojego małego <br class="hidden lg:block" /> zakładu produkcyjnego.
 					</h1>
 					<p class="mx-auto mt-8 max-w-xl text-base leading-relaxed text-gray-500">
-						<span class='text-violet-500 font-black text-2xl'>Just in time </span> to budżetowe rozwiązanie, które umożliwia w czasie rzeczywistym
-						synchronizację systemów Kanban produkcji offline i online.
+						<span class="text-2xl font-black text-violet-500">Just in time </span> to budżetowe rozwiązanie,
+						które umożliwia w czasie rzeczywistym synchronizację systemów Kanban produkcji offline i
+						online.
 					</p>
 					<p class="mx-auto mt-8 max-w-xl text-base leading-relaxed text-gray-500">
 						Nasze rozwiązanie koncentruje się na kontroli i raportowaniu czasu procesu zgodnie z
 						dokumentacją w małych firmach.
 					</p>
-					<div class="mx-auto mt-6 flex w-full max-w-2xl justify-center items-center gap-2">
+					<div class="mx-auto mt-6 flex w-full max-w-2xl items-center justify-center gap-2">
 						<div class="mt-3 rounded-lg sm:mt-0">
 							<a
 								href="#more"
