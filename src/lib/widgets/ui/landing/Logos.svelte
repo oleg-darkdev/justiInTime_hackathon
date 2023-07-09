@@ -54,12 +54,18 @@
 			<span
 				class="mb-4 max-w-4xl text-center  text-2xl font-medium uppercase tracking-wide text-white"
 			>
-				Кто уже использует подходы бережливого производства и Kanban production
+				Kto już stosuje podejścia produkcyjne Kanban i Lean manufacturing?
 				<!-- <a
 					href="https://www.wickedtemplates.com/expo.html"
 					class="font-semibold text-blue-600 hover:text-blue-500 lg:mb-0">Our customers »</a
 				> -->
 			</span>
+			<p class="mx-auto mt-8 max-w-xl text-base leading-relaxed text-white">
+				Kanban może być zatem wykorzystywany w niemal każdym obszarze, w którym istnieje przepływ
+				pracy, który można zwizualizować i usprawnić. Na przykład w takich dziedzinach jak:
+				produkcja, obsługa klienta, opieka zdrowotna, edukacja, IT i rozwój oprogramowania,
+				zarządzanie projektami.
+			</p>
 		</div>
 		<div class="mx-auto text-center">
 			<div class="mx-auto grid grid-cols-5 gap-x-4 gap-y-12 lg:grid-cols-5">

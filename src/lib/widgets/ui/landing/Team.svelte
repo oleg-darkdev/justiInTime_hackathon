@@ -3,14 +3,15 @@
 		{
 			img: 'https://avatars.githubusercontent.com/u/25108722?v=4',
 			title: 'Oleg Medvedev',
-			desc: 'Kanban Master / Front-end developer',
+			desc: ['', ''],
 			linkedin: '',
 			github: 'https://github.com/oleg-darkdev'
 		},
 		{
 			img: './images/anton.jpg',
 			title: 'Anton Savichau',
-			desc: 'Principle Backend Developer on S&P global',
+			desc: ['Principal Software Engineer with over 10 years of extensive experience in web and desktop applications developed on various technologies.',
+      'Experienced in Kanban/Scrum methodologies, which has enabled me to streamline the development process and ensure timely delivery of projects.'],
 			linkedin: '',
 			github: ''
 		}

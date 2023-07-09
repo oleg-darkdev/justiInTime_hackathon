@@ -48,21 +48,31 @@
 					<h1
 						class="max-w-5xl text-2xl font-bold leading-none tracking-tighter text-violet-700 md:text-5xl lg:max-w-7xl lg:text-5xl"
 					>
-						Устраните догадки и дефекты <br class="hidden lg:block" /> с помощью отслеживания
-						производства <br class="hidden lg:block" />
-						в режиме реального времени
+						Utwórz przejrzysty system Kanban
+						<br class="hidden lg:block" />
+						dla swojego małego <br class="hidden lg:block" /> zakładu produkcyjnego.
 					</h1>
 					<p class="mx-auto mt-8 max-w-xl text-base leading-relaxed text-gray-500">
-						Just in time - это IoT решение, позволяющее в режиме реального времени отслеживать такие
-						важные области, как время выполнения технологического процесса и загруженность
-						оборудования , чтобы вы могли быстро устранить узкие места, увеличить производительность
-						и максимизировать эффективность.
+						<span class='text-violet-500 font-black text-2xl'>Just in time </span> to budżetowe rozwiązanie, które umożliwia w czasie rzeczywistym
+						synchronizację systemów Kanban produkcji offline i online.
 					</p>
-					<div class="mx-auto mt-6 flex w-full max-w-2xl justify-center gap-2">
+					<p class="mx-auto mt-8 max-w-xl text-base leading-relaxed text-gray-500">
+						Nasze rozwiązanie koncentruje się na kontroli i raportowaniu czasu procesu zgodnie z
+						dokumentacją w małych firmach.
+					</p>
+					<div class="mx-auto mt-6 flex w-full max-w-2xl justify-center items-center gap-2">
 						<div class="mt-3 rounded-lg sm:mt-0">
-							<button
+							<a
+								href="#more"
 								class="transform rounded-xl bg-violet-600 px-5 py-4 text-center text-base font-medium text-white transition duration-500 ease-in-out hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 lg:px-10"
-								>Подробнее</button
+								>Więcej informacji</a
+							>
+						</div>
+						<div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
+							<a
+								href="#more"
+								class="block transform items-center rounded-xl border-2 border-white px-5 py-3.5 text-center text-base font-medium text-blue-600 shadow-md transition duration-500 ease-in-out focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 lg:px-10"
+								>Interfejs demo</a
 							>
 						</div>
 					</div>
