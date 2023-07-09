@@ -3,7 +3,7 @@
 		{
 			icon: '',
 			title:
-				'Отчётность для клиентов о соблюдении технологического процесса с подтверждением независимых сервисов E-czas',
+				'Raportowanie dla klientów o zgodności procesu z potwierdzeniem niezależnym od niezależnych serwisów E-czas i trello',
 			description: ''
 		},
 		{
@@ -56,7 +56,7 @@
 			</p>
 		</div>
 
-		<div class="mb-md-0 mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:w-8/12">
+		<div class="mb-md-0 mb-6 w-full bg-violet-600 py-6 rounded-lg shrink-0 grow-0 basis-auto px-3 lg:w-8/12">
 			<div class="flex flex-wrap">
 				{#each features as feature}
 					<div class="mb-4 w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:px-3">
@@ -80,7 +80,7 @@
 								</div> -->
 							</div>
 							<div class="ml-4 grow">
-								<p class="mb-3 text-2xl font-bold text-gray-500">{feature.title}</p>
+								<p class="mb-3 text-2xl font-bold text-white">{feature.title}</p>
 							</div>
 						</div>
 					</div>

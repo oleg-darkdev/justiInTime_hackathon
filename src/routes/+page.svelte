@@ -4,6 +4,7 @@
 		RightPanel,
 		LeftPanel,
 		ShortDescription,
+    FAQ,
 		Steps,
 		Features,
 		Team
@@ -115,6 +116,9 @@
 <LeftPanel content={content[3]} />
 <RightPanel content={content[4]} />
 <!-- <LeftPanel content={content[5]} /> -->
+
+<FAQ />
+
 
 <Team />
 

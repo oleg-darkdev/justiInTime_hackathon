@@ -1,62 +1,59 @@
 <script>
 	const logos = [
 		{
-			img: '',
+			img: 'amazon.svg',
 			link: '',
 			title: ''
 		},
 		{
-			img: '',
+			img: 'intel.svg',
 			link: '',
 			title: ''
 		},
 		{
-			img: '',
+			img: 'jonn.svg',
 			link: '',
 			title: ''
 		},
 		{
-			img: '',
+			img: 'infineon.svg',
 			link: '',
 			title: ''
 		},
 		{
-			img: '',
+			img: 'nxp.svg',
 			link: '',
 			title: ''
 		},
 		{
-			img: '',
+			img: 'samsung.svg',
 			link: '',
 			title: ''
 		},
 		{
-			img: '',
+			img: 'texas.svg',
 			link: '',
 			title: ''
 		},
 		{
-			img: '',
+			img: 'nike.svg',
 			link: '',
 			title: ''
 		},
 		{
-			img: '',
+			img: 'starbucks.svg',
 			link: '',
 			title: ''
-		},
-		{
-			img: '',
-			link: '',
-			title: ''
-		},
+		}
 	];
 </script>
 
 <section>
-	<div class=" mx-auto px-5 py-24 lg:px-16 bg-violet-600">
-		<div class="mb-8 flex w-full flex-col text-center items-center">
-			<span class="mb-4 text-2xl max-w-4xl  text-center font-medium uppercase tracking-wide text-white">
+	<div class=" mx-auto bg-violet-600 px-5 py-24 lg:px-16">
+		<div class="mb-8 flex w-full flex-col items-center text-center">
+			<span
+				class="mb-4 max-w-4xl text-center  text-2xl font-medium uppercase tracking-wide text-white"
+			>
 				Кто уже использует подходы бережливого производства и Kanban production
 				<!-- <a
 					href="https://www.wickedtemplates.com/expo.html"
@@ -65,14 +62,10 @@
 			</span>
 		</div>
 		<div class="mx-auto text-center">
-			<div class="mx-auto grid grid-cols-5 gap-4 lg:grid-cols-5">
+			<div class="mx-auto grid grid-cols-5 gap-x-4 gap-y-12 lg:grid-cols-5">
 				{#each logos as logo}
 					<div>
-						<img
-							class="mx-auto h-4 lg:h-12"
-							src="https://d33wubrfki0l68.cloudfront.net/5a364f2e7cfeadd0f603cdfeda83f5cd0509770d/3f0ae/images/logos/logoone.svg"
-							alt="Figma"
-						/>
+						<img class="mx-auto h-4 w-auto lg:h-20" src="./logos/{logo.img}" alt={logo.title} />
 					</div>
 				{/each}
 			</div>
