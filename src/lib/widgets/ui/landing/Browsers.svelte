@@ -1,5 +1,5 @@
 <script>
-  const browsers = [
+	const browsers = [
 		{
 			title: 'Chrome',
 			img: '/platforms/chrome.png',
@@ -26,8 +26,7 @@
 		}
 	];
 
-
-  const technologies = [
+	const technologies = [
 		{
 			title: 'Svelte',
 			img: '/platforms/svelte.svg',
@@ -58,7 +57,6 @@
 		}
 	];
 </script>
-
 
 <section class="md:my-12 lg:my-12">
 	<div
@@ -104,8 +102,6 @@
 		</div>
 	</div>
 </section>
-
-
 
 <section class="md:my-12 lg:my-12">
 	<div
