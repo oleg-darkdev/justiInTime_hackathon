@@ -58,9 +58,9 @@
 	];
 </script>
 
-<section class="md:my-12 lg:my-12 min-h-screen">
+<section class="min-h-screen md:my-12 lg:my-12">
 	<div
-		class="mb-12 relative w-full max-w-5xl items-center rounded-xl py-12 md:mx-auto md:bg-gray-200 md:px-12 lg:mx-auto lg:bg-gray-200 lg:px-16"
+		class="relative mb-12 w-full max-w-5xl items-center rounded-xl py-12 md:mx-auto md:bg-gray-200 md:px-12 lg:mx-auto lg:bg-gray-200 lg:px-16"
 	>
 		<h2
 			class="mb-8 text-center text-4xl font-bold leading-none tracking-tighter text-neutral-600  "
@@ -70,17 +70,17 @@
 		</h2>
 		<div class="grid gap-6 lg:grid-cols-4 xl:gap-x-12">
 			{#each browsers as technology}
-				<div class=" mb-6 lg:mb-0">
+				<div class=" mb-6 flex justify-center lg:mb-0">
 					<div
-						class="h-[100px] relative block rounded-lg bg-neutral-700 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
+						class="relative mb-4 block h-[100px] w-8/12 rounded-lg bg-neutral-700 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] lg:mb-0"
 					>
 						<div class="flex justify-center">
 							<div
-								class="relative mx-4 -mt-4 w-full overflow-hidden rounded-lg bg-cover bg-no-repeat "
+								class="relative mx-4 -mt-4  overflow-hidden rounded-lg bg-cover bg-no-repeat "
 								data-te-ripple-init
 								data-te-ripple-color="light"
 							>
-								<img src={technology.img} alt={technology.title} class="w-full" />
+								<img src={technology.img} alt={technology.title} class="w-40 " />
 								<a href="/">
 									<div
 										class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
@@ -111,17 +111,17 @@
 		</h2>
 		<div class="grid gap-6 lg:grid-cols-4 xl:gap-x-12">
 			{#each technologies as technology}
-				<div class="mb-6 lg:mb-0">
+				<div class="mb-6 flex justify-center lg:mb-0">
 					<div
-						class="relative h-[100px] block rounded-lg bg-neutral-700 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
+						class="relative block h-[100px] rounded-lg bg-neutral-700 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
 					>
-						<div class="flex justify-center items-center">
+						<div class="flex justify-center">
 							<div
-								class="relative mx-4 -mt-4 w-full overflow-hidden rounded-lg bg-cover bg-no-repeat "
+								class="relative mx-4 -mt-4  overflow-hidden rounded-lg bg-cover bg-no-repeat "
 								data-te-ripple-init
 								data-te-ripple-color="light"
 							>
-								<img src={technology.img} alt={technology.title} class="w-full" />
+								<img src={technology.img} alt={technology.title} class="w-40 " />
 								<a href="/">
 									<div
 										class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
