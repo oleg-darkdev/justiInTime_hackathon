@@ -58,9 +58,9 @@
 	];
 </script>
 
-<section class="md:my-12 lg:my-12">
+<section class="md:my-12 lg:my-12 min-h-screen">
 	<div
-		class="relative w-full max-w-5xl items-center rounded-xl py-12 md:mx-auto md:bg-gray-200 md:px-12 lg:mx-auto lg:bg-gray-200 lg:px-16"
+		class="mb-12 relative w-full max-w-5xl items-center rounded-xl py-12 md:mx-auto md:bg-gray-200 md:px-12 lg:mx-auto lg:bg-gray-200 lg:px-16"
 	>
 		<h2
 			class="mb-8 text-center text-4xl font-bold leading-none tracking-tighter text-neutral-600  "
@@ -70,9 +70,9 @@
 		</h2>
 		<div class="grid gap-6 lg:grid-cols-4 xl:gap-x-12">
 			{#each browsers as technology}
-				<div class="mb-6 lg:mb-0">
+				<div class=" mb-6 lg:mb-0">
 					<div
-						class="relative block rounded-lg bg-neutral-700 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
+						class="h-[100px] relative block rounded-lg bg-neutral-700 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
 					>
 						<div class="flex justify-center">
 							<div
@@ -88,22 +88,19 @@
 								</a>
 							</div>
 						</div>
-						<div class="flex flex-col justify-center p-6">
+						<!-- <div class="flex flex-col justify-center p-6">
 							<h5 class="mb-4 text-center text-2xl font-bold">{technology.title}</h5>
 							<p class="mb-6 text-center">
 								{technology.desc}
 							</p>
 
-							<!-- <LinkBtnStyle text="Download" link={technology.link} /> -->
-						</div>
+						</div> -->
 					</div>
 				</div>
 			{/each}
 		</div>
 	</div>
-</section>
 
-<section class="md:my-12 lg:my-12">
 	<div
 		class="relative w-full max-w-5xl items-center rounded-xl py-12 md:mx-auto md:bg-gray-200 md:px-12 lg:mx-auto lg:bg-gray-200 lg:px-16"
 	>
@@ -116,9 +113,9 @@
 			{#each technologies as technology}
 				<div class="mb-6 lg:mb-0">
 					<div
-						class="relative block rounded-lg bg-neutral-700 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
+						class="relative h-[100px] block rounded-lg bg-neutral-700 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
 					>
-						<div class="flex justify-center">
+						<div class="flex justify-center items-center">
 							<div
 								class="relative mx-4 -mt-4 w-full overflow-hidden rounded-lg bg-cover bg-no-repeat "
 								data-te-ripple-init
@@ -132,14 +129,13 @@
 								</a>
 							</div>
 						</div>
-						<div class="flex flex-col justify-center p-6">
+						<!-- <div class="flex flex-col justify-center p-6">
 							<h5 class="mb-4 text-center text-2xl font-bold">{technology.title}</h5>
 							<p class="mb-6 text-center">
 								{technology.desc}
 							</p>
 
-							<!-- <LinkBtnStyle text="Download" link={technology.link} /> -->
-						</div>
+						</div> -->
 					</div>
 				</div>
 			{/each}

@@ -16,11 +16,11 @@
 			]
 		},
 		{
-			title: 'Обучение перед началом использования.',
+			title: 'Dostępność szkoleń i doradztwa',
 			icon: '',
 			desc: [
-				'В интернете очень много информации Toyota Production System, мы предлагаем вам ознакомиться с системой через симуляционную настольную игру.',
-				''
+        "W Internecie można znaleźć wiele informacji na temat Toyota Production System od zewnętrznych trenerów",
+        "W ramach naszego produktu oferujemy również wprowadzenie do systemu produkcyjnego poprzez Kanban z wykorzystaniem symulacji przyszłego systemu produkcyjnego"
 			]
 		}
 		// {

@@ -1,66 +1,53 @@
 <script>
 	const faq = [
 		{
-			title: 'Почему система производства на основе Канбан',
+			title: 'Dlaczego System Produkcyjny Toyoty (TPS) został wybrany jako system produkcyjny?',
 			desc: [
-				`Канбан (kanban, система канбан) — это метод управления бережливыми производственными линиями (японское слово, обозначающее «сигнал» или «карточка»), использующий информационные карточки для передачи заказа на изготовление с последующего процесса на предыдущий.`,
-				`Инструмент вытягивающей системы, который дает указание на производство или изъятие (передачу) изделий с одного процесса на другой.`
+				'Kanban (system kanban) to odchudzona metoda zarządzania linią produkcyjną, która wykorzystuje karty informacyjne do przenoszenia zlecenia produkcyjnego z kolejnego procesu do poprzedniego.',
+				'Narzędzie systemu ciągnięcia, które wskazuje na produkcję lub wycofanie (przeniesienie) elementów z jednego procesu do drugiego'
 			]
 		},
 		{
-			title: 'На сколько Канбан надёжен в качестве системы производства',
+			title: 'Jak wiarygodnym systemem produkcyjnym jest system Kanban?',
 			desc: [
-				`истема Kanban впервые была внедрена в 1940-е годы в компании Toyota Motor Corporation в Японии. Это было частью усилий компании по внедрению системы "бережливого производства" или Toyota Production System (TPS). Kanban стал важным инструментом для поддержания принципа "just-in-time" (JIT) производства, который был ключевым элементом TPS.`,
-				`С течением времени принципы Kanban стали применяться в различных отраслях и областях деятельности. В 2000-е годы система Kanban стала широко использоваться в области разработки программного обеспечения и информационных технологий. Это было частично благодаря работе таких людей, как Дэвид Андерсон, который адаптировал принципы Kanban для управления работой в области IT.`
+				'System Kanban został po raz pierwszy wprowadzony w latach 40. w Toyota Motor Corporation w Japonii. Był on częścią wysiłków firmy zmierzających do wdrożenia systemu lean manufacturing lub Toyota Production System (TPS). Kanban stał się ważnym narzędziem wspierającym zasadę produkcji just-in-time (JIT), która była kluczowym elementem TPS',
+				'Z czasem zasady Kanban zaczęły być stosowane w różnych branżach i działaniach. W 2000 roku Kanban stał się szeroko stosowany w rozwoju oprogramowania i technologii informatycznych.'
 			]
 		},
 		{
-			title: 'Канбан для уже действующих предприятий',
+			title: 'Czy system Kanban jest odpowiedni dla istniejących przedsiębiorstw?',
 			desc: [
-				`Канбан-метод походіт для уже действуюшіх предпріятій іспытыювашіх проьлемы в своіх цепочках: помогает «собрать» задачу воедино и выстроить сквозной процесс, ориентированный на достижение конечной цели. Понять, сколько задач фактически находится внутри процесса, где и что блокирует их выполнение.`,
-				``
+				`Metoda Kanban jest odpowiednia dla istniejących przedsiębiorstw, które już doświadczają problemów w swoich łańcuchach: pomaga "poskładać" zadania i zbudować kompleksowy proces zorientowany na cel końcowy. Zrozumienie, ile zadań faktycznie znajduje się w procesie, gdzie i co blokuje ich realizację.`
 			]
 		},
 		{
-			title: 'В какой момент можно внедрят канбан систему производства',
+			title: 'W którym momencie można wdrożyć system produkcyjny kanban?',
 			desc: [
-				`Канбан сістема проізводства также Метод «начните с того, что вы делаете сейчас» предполагает эволюционное внедрение изменений. Многоэтапный процесс крайне сложно изменить революционно. Мягкие изменения внедрить гораздо проще — и они сразу дадут результат.`,
-				``
+				`System produkcyjny Kanban Metoda "Zacznij tam, gdzie jesteś teraz" obejmuje ewolucyjne wdrażanie zmian. Wieloetapowy proces jest niezwykle trudny do zmiany w rewolucyjny sposób. Miękkie zmiany są znacznie łatwiejsze do wdrożenia - i będą miały natychmiastowy efekt,`
 			]
 		},
 		{
-			title: 'В чём наше главное отличие от готовых решений на рынке',
-			desc: [``, ``]
+			title: 'Czym różnimy się od gotowych rozwiązań dostępnych na rynku?',
+			desc: [`1. Budżetowe rozwiązanie fizyczne wraz z konsultacjami - przystępne cenowo dla małych firm.`, `2. Uniwersalne rozwiązanie i niezależnie od rodzaju działalności.`, `3. Możliwe jest przejście na droższe i bardziej złożone systemy wykorzystujące Kanban.`, `4. `, `5. `, `6. `]
 		},
-		{
-			title: '',
-			desc: [``, ``]
-		},
-		{
-			title: '',
-			desc: [``, ``]
-		}
 	];
 </script>
 
-<section class="min-h-screen  bg-white py-6 sm:py-8 lg:py-12">
+<section class="bg-white py-6 sm:py-8 lg:py-12">
 	<div class="mx-auto max-w-screen-xl px-4 md:px-8">
 		<!-- text - start -->
 		<div class="mb-8">
-			<h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
-				Frequently asked questions
+			<h2 class="mb-4 text-center text-2xl font-black text-violet-700  md:mb-6 lg:text-3xl">
+				Odpowiedzi na możliwe pytania
 			</h2>
 
 			<p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
-				This is a section of some simple filler text, also known as placeholder text. It shares some
-				characteristics of a real written text but is random or otherwise generated.
+				Zebraliśmy ważne informacje, które mogą pomóc.
 			</p>
 		</div>
-		<!-- text - end -->
 		<a name="faq" />
 
 		<div class="grid gap-4 sm:grid-cols-2 md:gap-8">
-			<!-- question - start -->
 			{#each faq as data}
 				<div class="rounded-lg bg-violet-500 p-5">
 					<div class="mb-4 flex items-center justify-between gap-4 border-b pb-4">
@@ -86,7 +73,7 @@
 						</span>
 					</div>
 					{#each data.desc as description}
-						<p class="text-gray-100">
+						<p class="mb-2 text-gray-100">
 							{@html description}
 						</p>
 					{/each}

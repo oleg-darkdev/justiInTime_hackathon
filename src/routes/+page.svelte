@@ -94,7 +94,7 @@
 			class="max-w-5xl text-center text-4xl font-bold leading-none tracking-tighter text-neutral-50 md:text-5xl lg:max-w-7xl lg:text-6xl"
 		>
 			Witamy w <span class="font-black text-violet-500">Just in Time </span>
-			<br class="hidden lg:block" /> production system
+			<br class="hidden lg:block" />Kanban production system
 		</h2>
 	</div>
 </section>
@@ -113,13 +113,13 @@
 <Browsers />
 
 
-<h2 class="mt-12 text-center text-6xl  font-black text-violet-700">Загляните под капот</h2>
+<!-- <h2 class="mt-12 text-center text-6xl  font-black text-violet-700">Jakie funkcje ukrywa JustInTime?</h2> -->
 
-<RightPanel content={content[0]} />
+<!-- <RightPanel content={content[0]} />
 <LeftPanel content={content[1]} />
 <RightPanel content={content[2]} />
 <LeftPanel content={content[3]} />
-<RightPanel content={content[4]} />
+<RightPanel content={content[4]} /> -->
 <!-- <LeftPanel content={content[5]} /> -->
 
 <FAQ />

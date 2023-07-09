@@ -1,46 +1,48 @@
 <script>
 	const steps = [
 		{
-			title: 'Собирайте',
+			title: 'Zbieranie informacji',
 			desc: [
-				'Автономный сбор, подключение и контекстуализация данных от машин и операторов в вашем цехе.'
+				'Autonomiczne zbieranie, łączenie i kontekstualizacja danych od operatorów w zakładzie'
 			]
 		},
 		{
-			title: 'Доступ',
+			title: 'Przejrzystość i dostępność',
 			desc: [
-				'Безопасный доступ к полным, пригодным для использования данным в режиме реального времени - в любом месте и в любое время - с помощью удобного для мобильных устройств облачного приложения'
+				'Bezpieczny dostęp do kompletnych, użytecznych danych w czasie rzeczywistym - za pośrednictwem przyjaznej dla urządzeń mobilnych, opartej na chmurze aplikacji, z wykorzystaniem niezależnych serwisów'
 			]
 		},
 		{
-			title: 'Визуализируйте',
+			title: 'Wizualizacja systemu produkcyjnego',
 			desc: [
-				'Мощные визуализации данных на производстве позволяют вашей команде оперативно и выполнять работы точно в срок.'
+				'Wydajne wizualizacje danych na hali produkcyjnej umożliwiają zespołowi szybkie i terminowe wykonywanie zadań zgodnie z dokumentacją'
 			]
 		},
 		{
-			title: 'Анализируйте',
+			title: 'Analiza oparta na metrykach Kanban',
 			desc: [
-				'Проводите углубленный анализ данных в реальном времени и исторических данных с помощью надежных встроенных функций отчетности.'
+				'Przeprowadzaj dogłębną analizę danych historycznych i w czasie rzeczywistym z ogromną dokładności'
 			]
 		},
 		{
-			title: 'Оптимизируйте',
+			title: 'Optymalizacja i rozwój',
 			desc: [
-				'Анализ производственных данных помогает определить стратегии повышения эффективности работы и измерить эффект от любых изменений процесса.'
+				'Analiza danych produkcyjnych pomaga zidentyfikować strategie poprawy wydajności i zmierzyć wpływ wszelkich zmian w procesie'
 			]
 		},
 		{
-			title: 'Расширяйте возможности',
+			title: 'Przemysł 4.0',
 			desc: [
-				'Цифровое преобразование операций, позволяющее операторам, менеджерам и руководителям получить информацию, основанную на данных.'
+				'Czwarta rewolucja przemysłowa (Przemysł 4.0) obejmuje nowe podejście do produkcji oparte na masowym wdrażaniu technologii informatycznych w przemyśle i cyfryzacji procesów biznesowych'
 			]
 		}
 	];
 </script>
 
-<section>
-	<h2 class=" text-center text-6xl  font-black text-violet-700">Как следить за производством</h2>
+<section class='min-h-screen'>
+	<h2 class=" text-center text-6xl  font-black text-violet-700">
+		Co się będzie działo <br class="hidden lg:block" /> w systemie produkcyjnym
+	</h2>
 	<div class="relative mx-auto w-full max-w-7xl items-center px-5 py-12 md:px-12 lg:px-24">
 		<div class="mx-auto grid w-full grid-cols-1 gap-6 lg:grid-cols-3">
 			{#each steps as step}
